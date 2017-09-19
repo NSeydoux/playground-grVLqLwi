@@ -1,4 +1,8 @@
-title: Simple Java Template
+title: Stage Hippocampe : Introduction à l'algorithmique
 plan:
-- title: Java Snippet
-  statement: statement.md
+- title: Votre premier programme
+  statement: 00_intro.md
+- title: Variables et types
+  statement: 01_var_types.md
+- title: Les conditions
+  statement: 02_if.md
