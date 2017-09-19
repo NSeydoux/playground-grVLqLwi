@@ -6,3 +6,5 @@ plan:
   statement: 01_var_types.md
 - title: Les conditions
   statement: 02_if.md
+- title: Les expressions booléennes
+  statement: 03_boolean_expressions.md
