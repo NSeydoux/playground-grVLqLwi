@@ -9,7 +9,7 @@ public static void main(String[] args) {
 
 String messageAAfficher = "Hello World!";
 Integer anneeEnCours = 2017;
-System.out.println(message);
+System.out.println(messageAAfficher);
 //System.out.println(anneeEnCours);
 Double pi = 3.1415;
 anneeEnCours = 2018;
