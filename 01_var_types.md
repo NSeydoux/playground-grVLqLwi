@@ -63,7 +63,7 @@ Boolean aIsGreater = a > b;
 ?[À la fin du programme, quelle sera la valeur de c ?]
 -[ ] 2
 -[ ] 3
--[ ] 5
+-[X] 5
 -[ ] 7
 -[ ] 8
 
