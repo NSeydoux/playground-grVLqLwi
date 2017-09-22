@@ -63,5 +63,4 @@ public class Maison {
 
 - Créez trois maison différentes
 - La mairie décide de renommer les rues ! Faites en sorte de pouvoir changer publiquement les adresses des maisons, et changez les adresses des maisons que vous avez déjà créées.
-- Vous voulez maintenant pouvoir attribuer les bureaux inoccupés à l'hébergement d'urgence. Ajoutez une propriété pour déterminer si une maison est un bâtiment personnel ou professionnel, et une autre pour déterminer si la maison est occupée. Vous pouvez maintenant ajouter une méthode indiquand si la maison peut être attribuée à l'hébergement d'urgence.
-- 
+- Vous voulez maintenant pouvoir attribuer les bureaux inoccupés à l'hébergement d'urgence. Ajoutez une propriété pour déterminer si une maison est un bâtiment personnel ou professionnel, et une autre pour déterminer si la maison est occupée. Vous pouvez maintenant ajouter une méthode indiquant si la maison peut être attribuée à l'hébergement d'urgence.
