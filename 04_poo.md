@@ -43,7 +43,7 @@ public class Maison {
         if(this.jardin){
             result += " un jardin.";
         } else {
-            result += " pas de jardin."
+            result += " pas de jardin.";
         }
     }
 
