@@ -1,49 +1,53 @@
 ```java runnable
 //{ autofold
 import java.util.ArrayList;
+
+
+public class Main {
 //}
-
-public class Maison {
-    private Integer surface;
-    private Integer nombrePieces;
-    private String addresse;
-    private Boolean jardin;
-
-    public Maison(Integer surface, Integer nombrePieces, String adresse, Boolean jardin){
-        this.surface = surface;
-        this.nombrePieces = nombrePieces;
-        this.adresse = adresse;
-        this.jardin = jardin;
-    }
-
-    public Integer getSurface(){
-        return this.surface;
-    }
-
-    public Integer getNombrePieces(){
-        return this.nombrePieces;
-    }
-
-    public void setNombrePieces(Integer pieces){
-        if(pieces > 0){
-            this.nombrePieces = pieces;
+    public static class Maison {
+        private Integer surface;
+        private Integer nombrePieces;
+        private String adresse;
+        private Boolean jardin;
+    
+        public Maison(Integer surface, Integer nombrePieces, String adresse, Boolean jardin){
+            this.surface = surface;
+            this.nombrePieces = nombrePieces;
+            this.adresse = adresse;
+            this.jardin = jardin;
         }
-    }
-
-    public String getAdresse(){
-        return this.adresse;
-    }
-
-    public Boolean hasJardin(){
-        return this.jardin;
-    }
-
-    public String toString(){
-        String result = "Votre maison de "+this.surface+"m², située au "+this.adresse+", a "+this.nombrePieces+" pièces et ";
-        if(this.jardin){
-            result += " un jardin.";
-        } else {
-            result += " pas de jardin.";
+    
+        public Integer getSurface(){
+            return this.surface;
+        }
+    
+        public Integer getNombrePieces(){
+            return this.nombrePieces;
+        }
+    
+        public void setNombrePieces(Integer pieces){
+            if(pieces > 0){
+                this.nombrePieces = pieces;
+            }
+        }
+    
+        public String getAdresse(){
+            return this.adresse;
+        }
+    
+        public Boolean hasJardin(){
+            return this.jardin;
+        }
+    
+        public String toString(){
+            String result = "Votre maison de "+this.surface+"m², située au "+this.adresse+", a "+this.nombrePieces+" pièces et ";
+            if(this.jardin){
+                result += " un jardin.";
+            } else {
+                result += " pas de jardin.";
+            }
+            return result;
         }
     }
 
@@ -52,12 +56,14 @@ public class Maison {
         Maison maMaison = new Maison(60, 4, "42, rue du manchot", false);
         System.out.println(maMaison.toString());
         ArrayList<Maison> mesMaisons = new ArrayList<Maison>();
-        mesMaisons.put(maMaison);
+        mesMaisons.add(maMaison);
         for(Maison m : mesMaisons){
             System.out.println(m.toString());
         }
     }
+//{ autofold    
 }
+//}
 
 ```
 
